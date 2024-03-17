@@ -1,0 +1,10 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Lab_1</title>
+    </head>
+    <body>
+        <h2>Hello from Docker, launched by Jenkins</h2>
+    </body>
+</html>
