@@ -26,12 +26,6 @@ pipeline {
                  echo "Build stage is running"
             }
         }
-        stage('Load Credentials') {
-            steps {
-                echo "Username is $MY_CRED_USR"
-                echo "Password is $MY_CRED_PSW"
-            }
-        }
         stage('Deploy nginx/custom'){
             steps{
                 sh "docker run -d -p 80:80 nginx/custom:latest"
